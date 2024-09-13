@@ -92,4 +92,10 @@
        justify-content: center;
        align-items: center;
     }
+    .moreDe{
+        padding-left: 5px;
+    }
+    .header h1{
+        font-size: 12px;
+    }
 }
