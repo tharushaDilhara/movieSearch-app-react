@@ -19,7 +19,7 @@ const MovieSearchApp = () => {
 
     const fetchMovies = async ()=>{
         try {
-            const response = await fetch(`http://www.omdbapi.com/?t=${title}&apikey=${apiKey}`);
+            const response = await fetch(`https://www.omdbapi.com/?t=${title}&apikey=${apiKey}`);
             const movieData = await response.json();
 
             //const{Poster,Title,Year,Released,Runtime} = movieData;
